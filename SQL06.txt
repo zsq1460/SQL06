@@ -1,0 +1,50 @@
+﻿信息系统与数据库技术练习6答题卡
+
+班级：  19信管1班   
+姓名：  张舒倩   
+学号： 20190307137    
+
+注：请将答案放置在序号下方。*/
+
+（一）
+1.CREATE DATABASE  OnlineShop
+
+
+
+2.USEOnlineShop
+
+
+
+3.(
+Cid int PRIMARY KEY,
+Card char (18) NOT NULL,
+Cname nVarChar(3)NOT NULL,
+RegDate dateTime NOT NULL,
+Meanvalue numeric (12,2)
+)
+
+
+
+
+4.CREATE TABLE  Books
+(
+Bid char(4)PRIMARY KEY,
+Bname varchar(20)  NOT NULL,
+Author varchar(15),
+Publisher varchar (30),
+PublisherDate dateTime,
+Price money,
+Discount decimal(3,2)
+)
+
+
+
+5.USE master
+
+
+
+6.EXEC sp_helpdb OnlineShop
+
+7.DROP DATABASE OnlineShop
+
+
